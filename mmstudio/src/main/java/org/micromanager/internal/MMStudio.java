@@ -237,6 +237,10 @@ public final class MMStudio implements Studio {
       }
       studio_ = this;
       isProgramRunning_ = true;
+      if (IJ.getInstance() == null) {
+         ImageJ ij = new ImageJ(); // Create an instance for MMStudio if there isn't already one.
+      }
+      IJ.getInstance().setVisible(false);
 
       ThreadExceptionLogger.setUp();
 
