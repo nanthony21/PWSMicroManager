@@ -13,7 +13,7 @@
         <entry key="property-2.org.checkstyle.google.suppressionxpathfilter.config" value="" />
         <entry key="scan-before-checkin" value="false" />
         <entry key="scanscope" value="JavaOnly" />
-        <entry key="suppress-errors" value="false" />
+        <entry key="suppress-errors" value="true" />
       </map>
     </option>
   </component>
