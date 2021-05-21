@@ -48,6 +48,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.JToggleButton;
+import javax.swing.SwingUtilities;
 import javax.swing.border.MatteBorder;
 import mmcorej.CMMCore;
 import net.miginfocom.swing.MigLayout;
@@ -341,6 +342,13 @@ public final class MainFrame extends JFrame {
 
    @Subscribe
    public void onAlertUpdated(AlertUpdatedEvent event) {
+      if (!SwingUtilities.isEventDispatchThread()) {
+         SwingUtilities.invokeLater(() -> {
+            onAlertUpdated(event);
+         });
+         return;
+      }
+
       displayedAlert_ = event.getAlert();
       String title = displayedAlert_.getTitle();
       String text = displayedAlert_.getText();
