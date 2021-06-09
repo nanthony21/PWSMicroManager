@@ -61,8 +61,8 @@ class ImageJPanelController extends AbstractInspectorPanelController {
    }
 
    public boolean initiallyExpand() {
-      return true;
-   };
+      return false;
+   }
 
    public void setExpanded(boolean status) {
 
