@@ -5,3 +5,6 @@
 	path = mmCoreAndDevices
 	url=https://github.com/micro-manager/mmCoreAndDevices.git
 	branch = main
+[submodule "plugins/BackmanLabSTORM"]
+	path = plugins/BackmanLabSTORM
+	url = https://github.com/BackmanLab/STORM-Micro-Manager.git
