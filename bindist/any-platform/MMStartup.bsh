@@ -1,2 +1,6 @@
-plugin = mm.plugins().getMenuPlugins().get("edu.bpl.pwsplugin.PWSPlugin");
-plugin.onPluginSelected();
+try {
+	plugin = mm.plugins().getMenuPlugins().get("edu.bpl.pwsplugin.PWSPlugin");
+	plugin.onPluginSelected();
+} catch (Exception e) {
+	mm.logs().logError(e);
+}
