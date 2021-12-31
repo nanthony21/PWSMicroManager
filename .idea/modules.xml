@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/libraries/ImageProcessing/ImageProcessing.iml" filepath="$PROJECT_DIR$/libraries/ImageProcessing/ImageProcessing.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmstudio/src/main/java/MMStudio.iml" filepath="$PROJECT_DIR$/mmstudio/src/main/java/MMStudio.iml" />
       <module fileurl="file://$PROJECT_DIR$/plugins/PWSPlugin/PWSPlugin.iml" filepath="$PROJECT_DIR$/plugins/PWSPlugin/PWSPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/BackmanLabSTORM/STORM-Micro-Manager.iml" filepath="$PROJECT_DIR$/plugins/BackmanLabSTORM/STORM-Micro-Manager.iml" />
     </modules>
   </component>
 </project>
