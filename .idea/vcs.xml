@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/mmCoreAndDevices" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/plugins/BackmanLabSTORM" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/plugins/PWSPlugin" vcs="Git" />
   </component>
 </project>
